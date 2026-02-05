@@ -1,10 +1,11 @@
 // import File System Module
-import fs from "fs"; 
+import fs from 'fs';
 
 // import xml2js Module
 import { parseString } from "xml2js";
 
-//xml data
+const folderName = '/home/petu/40k/40k-army-builder/Orks & Tyranids catalog/Orks.cat';
+
 var xmldata = '<?xml version=”1.0" encoding=”UTF-8"?>' +
 '<Student>' +
     '<PersonalInformation>' +
@@ -28,7 +29,3 @@ let data = JSON.stringify(results)
 // display the json data
 console.log("results",data);
 });
-
-
-var msg = 'Orks,\nOrks,\nOrks!\n';
-console.log(msg);
