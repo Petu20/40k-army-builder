@@ -1,0 +1,25 @@
+{
+  "name": "40k-army-builder",
+  "version": "1.0.0",
+  "description": "Army builder for Warhammer 40k tabletop game",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petu20/40k-army-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Petu20/40k-army-builder/issues"
+  },
+  "homepage": "https://github.com/Petu20/40k-army-builder#readme",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
